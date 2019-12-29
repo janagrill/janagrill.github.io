@@ -3,11 +3,15 @@
 
 @charset "utf-8";
 
-// variables.less
-$theme-primary: #af52de;
-$theme-dark: #bf5af2;
+// Theme colors
+$theme-text: #dfe0e2;
+$theme-background: #071013;
+$theme-primary: #eb5160;
+$theme-secondary: #b7999c;
+$theme-tertiary: #aaaaaa;
 
-$image-overlay-color: #bf5af2;
+// Semantic colors
+$image-overlay-color: $theme-secondary;
 $image-overlay-transparency: 0.6;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
