@@ -37,6 +37,9 @@
 $theme-primary: #af52de;
 $theme-dark: #bf5af2;
 
+$image-overlay-color: #bf5af2;
+$image-overlay-transparency: 0.6;
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
