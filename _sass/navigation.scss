@@ -1,0 +1,18 @@
+.navigation {
+	display: flex;
+	align-items: center;
+
+	&__title {
+		font-size: 40px;
+		margin-right: auto;
+	}
+
+	&__social-links {
+		margin: 0 -$spacing-default;
+	}
+
+	&__social-link {
+		padding: 0 $spacing-default;
+		text-decoration: none;
+	}
+}
