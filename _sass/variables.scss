@@ -10,7 +10,9 @@ $color-ivory: #dfe0e2;
 // Semantic color
 $color-background: $color-black;
 $color-primary-text: $color-ivory;
-$color-secondary-text: $color-gray;
+$color-secondary-text: $color-black;
+$color-link: $color-pink;
 
-$image-overlay-color: $color-pink;
+$image-overlay-color-start: $color-pink;
+$image-overlay-color-end: $color-gray;
 $image-overlay-transparency: 0.6;
