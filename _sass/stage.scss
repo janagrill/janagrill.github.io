@@ -47,4 +47,13 @@
     &__description {
 
     }
+
+	&__social-links {
+		margin: 0 (-$spacing-default);
+	}
+
+	&__social-link {
+		padding: 0 $spacing-default;
+		text-decoration: none;
+	}
 }
