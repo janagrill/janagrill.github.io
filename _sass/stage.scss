@@ -25,6 +25,9 @@
     }
 
     &__content {
+        flex: 1 1 auto;
+        display: flex;
+        flex-flow: column;
     	position: relative;
     	color: $color-secondary-text;
     	text-align: right;
@@ -49,11 +52,18 @@
     }
 
 	&__social-links {
+        align-self: flex-start;
 		margin: 0 (-$spacing-default);
 	}
 
 	&__social-link {
 		padding: 0 $spacing-default;
-		text-decoration: none;
+        text-decoration: none;
+        
+        img {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+        }
 	}
 }
