@@ -1,0 +1,13 @@
+.footer {
+	margin-top: $spacing-default;
+
+	&__links {
+		text-align: center;
+		margin: 0 (-$spacing-default);
+	}
+
+	&__link {
+		text-decoration: none;
+		padding: 0 $spacing-default;
+	}
+}
