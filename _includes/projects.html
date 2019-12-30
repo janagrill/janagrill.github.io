@@ -1,8 +1,19 @@
 <div class="projects">
 	<div class="projects__title">
+		Projects
 	</div>
 	<div class="projects__items">
-		<div class="projects__item">
-		</div>
+		{% for project in site.data.projects %}
+			<a class="projects__item" href="{{ project.page }}" target="_blank">
+				<div class="projects__item-ratio-outer">
+					<div class="projects__item-ratio-inner">
+						<img class="projects__item-image" src="/images/projects/{{ project.image }}">
+						<div class="projects__item-overlay">
+							<div class="projects__item-title">{{ project.title }}</div>
+						</div>
+					</div>
+				</div>
+			</a>
+		{% endfor %}
 	</div>
 </div>
