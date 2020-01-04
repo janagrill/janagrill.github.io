@@ -16,7 +16,7 @@
 		max-width: 100%;
 		color: $color-primary-text;
 		text-decoration: none;
-		background: white;
+		background: $color-grid-background;
 		padding: $spacing-large;
 		margin: $spacing-default;
 		transition: transform 0.2s ease-in-out;
