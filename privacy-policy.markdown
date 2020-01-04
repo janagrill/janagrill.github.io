@@ -4,19 +4,26 @@ title: Privacy Policy
 ---
 
 **Last updated**  
-December 28th, 2019
+January 4th, 2020
 
 # Privacy Policy
-The Calendar Week app was built by Jana Grill, Echinger Str. 16A, 80805 München as a Free app. This SERVICE is provided by Jana Grill at no cost and is intended for use as is.
+This website was built by Jana Grill, Echinger Str. 16A, 80805 München as a free product. 
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of personal information if anyone decided to use my Service.
 
 <br>
 
 ## 1.0 Information Collection and Use
-The app counts the number of times it has been opened in order to display an App Store review banner after a certain usage time. This piece of information is only stored locally on the user's device. This piece of information is not shared with the Service provider or any other third-party service, nor is it ever sent over the network or uploaded to any server. This piece of information can be deleted from the user's device by deleting the app itself.
+The website does not save or share any cookies or any other information about its visitors. 
 
-No other information is collected or shared.
+<br>
+
+## 1.1 Third-party services
+The source code of the website is open-source and is available in [this GitHub repository](https://github.com/janagrill/janagrill.github.io).
+
+The website is hosted on [GitHub Pages](https://pages.github.com/). 
+
+The external resources, such as the [Font Awesome](https://fontawesome.com/) icons and [Google Fonts](https://fonts.google.com/) are as well hosted in the above-mentioned repository, rather than being downloaded from the internet dynamically. 
 
 <br>
 
@@ -26,4 +33,4 @@ I may update our Privacy Policy from time to time. Thus, you are advised to revi
 <br>
 
 ## 3.0 Contact Us
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at dev@janagrill.io.
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at [dev@janagrill.io](mailto:dev@janagrill.io).
