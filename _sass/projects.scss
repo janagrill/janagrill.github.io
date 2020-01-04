@@ -12,46 +12,31 @@
 	}
 
 	&__item {
-		flex: 0 0 300px;
+		flex: 0 0 200px;
 		max-width: 100%;
 		color: $color-primary-text;
-	}
+		text-decoration: none;
+		background: white;
+		padding: $spacing-large;
+		margin: $spacing-default;
+		transition: transform 0.2s ease-in-out;
+		transform: translateY(0);
 
-	&__item-ratio-outer {
-		padding-bottom: 50%;
-		position: relative;
-	}
-
-	&__item-ratio-inner {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
-
-	&__item-image {
-		display: block;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
-
-	&__item-overlay {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: rgba(pink, 0.8);
-		opacity: 0;
-		transition: opacity 0.3s ease-in-out;
-
-		.projects__item:hover & {
-			opacity: 1;
+		&:hover {
+			transform: translateY(-5px);
 		}
+	}
+
+	&__item-icon {
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin-bottom: $spacing-large;
+	}
+
+	&__item-title {
+		margin-bottom: $spacing-default;
+		font-size: 20px;
+		font-weight: 700;
 	}
 }

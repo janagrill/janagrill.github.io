@@ -1,4 +1,5 @@
 - title: Calendar Week
-  image: calendar-week.svg
+  description: Calendar week as today widget and watch complication
+  icon: calendar-week.svg
   page: /calendarweekapp
   
