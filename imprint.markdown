@@ -3,27 +3,28 @@ layout: page
 title: Imprint
 ---
 
-**Last updated**  
-December 28th, 2019
+# Impressum
 
-# Privacy Policy
-The Calendar Week app was built by Jana Grill, Echinger Str. 16A, 80805 München as a Free app. This SERVICE is provided by Jana Grill at no cost and is intended for use as is.
+## Angaben gemäß § 5 TMG
+**Jana Grill**<br/>
+Echinger Str. 16A<br/>
+80805 München<br/>
+Deutschland
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+## Kontakt
+E-Mail: [dev@janagrill.io](mailto:dev@janagrill.io)
 
-<br>
+### Haftung für Inhalte
+Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
 
-## 1.0 Information Collection and Use
-The app counts the number of times it has been opened in order to display an App Store review banner after a certain usage time. This piece of information is only stored locally on the user's device. This piece of information is not shared with the Service provider or any other third-party service, nor is it ever sent over the network or uploaded to any server. This piece of information can be deleted from the user's device by deleting the app itself.
+### Haftung für Links
+Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
+Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 
-No other information is collected or shared.
+### Urheberrecht
+Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
-<br>
-
-## 2.0 Changes to This Privacy Policy
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
-
-<br>
-
-## 3.0 Contact Us
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at dev@janagrill.io.
+### Quelle
+[eRecht24 Impressum Generator](https://www.e-recht24.de/impressum-generator.html)
