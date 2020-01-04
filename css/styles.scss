@@ -1,6 +1,10 @@
 ---
 ---
 
-body {
-	background-color: blue;
-}
+@import "variables";
+@import "scaffolding";
+@import "navigation";
+@import "stage";
+@import "projects";
+@import "footer";
+@import "page";
