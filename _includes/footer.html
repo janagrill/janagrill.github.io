@@ -1,6 +1,7 @@
 <div class="footer">
 	<div class="footer__links">
-		<a class="footer__link" href="/privacy-policy">Privacy Policy</a>
-		<a class="footer__link" href="/imprint">Imprint</a>
+		{% for legal in site.data.legals %}
+			<a class="footer__link" href="{{ legal.page }}">{{ legal.title }}</a>
+		{% endfor %}
 	</div>
 </div>
