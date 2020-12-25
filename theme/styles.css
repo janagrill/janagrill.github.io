@@ -1,0 +1,382 @@
+
+/* Colors
+ $color-black: #00171F;
+ $color-dark-blue: #003459;
+ $color-cerulean: #007EA7;
+ $color-light-blue: #00A8E8;
+ $color-ivory: #DDF0FF;
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+
+/* Ubuntu regular */
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("/fonts/Ubuntu-Regular.eot");
+    src: url("/fonts/Ubuntu-Regular.eot?#iefix") format('embedded-opentype'),
+    url("/fonts/Ubuntu-Regular.woff2") format('woff2'),
+    url("/fonts/Ubuntu-Regular.woff") format('woff'),
+    url("/fonts/Ubuntu-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Ubuntu italic */
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url('/fonts/Ubuntu-Italic.eot');
+    src: url('/fonts/Ubuntu-Italic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Ubuntu-Italic.woff2') format('woff2'),
+    url('/fonts/Ubuntu-Italic.woff') format('woff'),
+    url('/fonts/Ubuntu-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Ubuntu bold */
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url('/fonts/Ubuntu-Bold.eot');
+    src: url('/fonts/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Ubuntu-Bold.woff2') format('woff2'),
+    url('/fonts/Ubuntu-Bold.woff') format('woff'),
+    url('/fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #00171F;
+    color: #DDF0FF;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: #007EA7;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align: left;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Stage */
+
+.stage {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    min-height: 70vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.stage__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background:
+        linear-gradient(
+            rgba(0,52,89,0.6),
+            rgba(0,23,31,0.6)
+        ),
+        url(../images/belgrade.jpeg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.stage__content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    text-align: right;
+    color: #00A8E8;
+    padding: 50px;
+}
+
+.stage__social-links {
+    align-self: flex-start;
+    margin: 0 -8px;
+}
+
+.stage__social-link {
+    padding: 0 8px;
+    text-decoration: none;
+}
+
+.stage__social-link img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.stage__avatar {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.stage__name {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.stage__description {
+    font-weight: 700;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 7px;
+    line-height: 1.5em;
+}
+
+nav li a.selected {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+li {
+    border-radius: 20px;
+    background-color: #003459;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+.item-list h1 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.item-list p {
+    margin-bottom: 0;
+}
+
+.tag-list {
+    margin-bottom: 15px;
+}
+
+.tag-list li,
+.tag {
+    display: inline-block;
+    background-color: #000;
+    color: #ddd;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.tag-list a,
+.tag a {
+    color: #00A8E8;
+    text-decoration: none;
+}
+
+.item-page .tag-list {
+    display: inline-block;
+}
+
+.content {
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #003459;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+.content > h2 {
+    margin: 20px 0;
+}
+
+.browse-all {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.all-tags li {
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 6px 10px;
+}
+
+/* Items */
+
+.items__title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* Projects */
+
+.projects__items {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.projects__item {
+    flex: 0 0 264px;
+    max-width: 100%;
+    color: #DDF0FF;
+    text-decoration: none;
+    background: #003459;
+    padding: 40px;
+    margin: 8px;
+    border-radius: 20px;
+    transition: transform 0.2s ease-in-out;
+    transform: translateY(0);
+}
+
+.projects__item:hover {
+    transform: translateY(-5px);
+}
+
+.projects__item-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 50px;
+    border-radius: 15%;
+}
+
+.projects__item-title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Articles */
+
+.articles {
+    margin: 0 8px;
+}
+
+.article-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-header-element {
+    color: #00A8E8;
+}
+
+/* Header */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.navigation__title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+/* Footer */
+
+footer {
+    margin: 50px 0;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer__links {
+    text-align: center;
+}
+
+.footer__link {
+    padding: 0 8px;
+}
+
+@media(max-width: 600px) {
+    .stage {
+        padding: 40px 20px;
+    }
+}
+
+/* Code */
+
+pre {
+    margin: 20px 0;
+    border-radius: 20px;
+    background-color: #00171F;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+pre code .keyword { color: #fc5fA3; }
+pre code .type { color: #5dd8ff; }
+pre code .call { color: #67b7a4; }
+pre code .property { color: #67b7a4; }
+pre code .number { color: #d0bf69; }
+pre code .string { color: #fc6a5d; }
+pre code .comment { color: #6c7986; }
+pre code .dotAccess { color: #67b7a4; }
+pre code .preprocessing { color: #fd8f3f; }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>transparency</title>
+    <g id="transparency" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="512" height="512"></rect>
+        <rect id="Rectangle" fill="#BF5AF2" x="25" y="25" width="190" height="190" rx="20"></rect>
+        <g id="Stripes" transform="translate(120.500000, 119.500000) rotate(45.000000) translate(-120.500000, -119.500000) translate(-8.000000, -9.000000)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="16">
+            <line x1="128.5" y1="0" x2="128.5" y2="256" id="Line-3"></line>
+            <line x1="224.5" y1="0" x2="224.5" y2="256" id="Line-3"></line>
+            <line x1="192.5" y1="0" x2="192.5" y2="256" id="Line-3"></line>
+            <line x1="160.5" y1="0" x2="160.5" y2="256" id="Line-3"></line>
+            <line x1="32.5" y1="0" x2="32.5" y2="256" id="Line-3"></line>
+            <line x1="64.5" y1="0" x2="64.5" y2="256" id="Line-3"></line>
+            <line x1="96.5" y1="1" x2="96.5" y2="257" id="Line-3"></line>
+            <line x1="0.5" y1="0" x2="0.5" y2="256" id="Line-3"></line>
+            <line x1="256.5" y1="1" x2="256.5" y2="257" id="Line-3"></line>
+        </g>
+        <rect id="Rectangle" fill="#BF5AF2" x="297" y="297" width="190" height="190" rx="20"></rect>
+        <path id="Line" d="M215.5,209.843146 L269.215,263.558 L281.943651,250.830952 L297.5,297.5 L250.830952,281.943651 L263.558,269.215 L209.843146,215.5 L215.5,209.843146 Z" fill="#AF52DE" fill-rule="nonzero"></path>
+    </g>
+</svg>
